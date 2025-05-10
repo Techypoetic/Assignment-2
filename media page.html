@@ -25,8 +25,14 @@
     <br><br>
 
 
-     <section>
-        <img src="assets/image/me-1.jpg" type="image/jpeg">
+    <section>
+        <picture>
+            <source srcset="assets/image/me-1.jpg" type="image/jpeg" media="(max-width: 767px)">
+            <source srcset="assets/image/me-2.jpg" type="image/jpeg" media="(min-width: 768px)">
+            <source srcset="assets/image/me-2.jpg" type="image/jpeg" media="(min-width: 1024px)">
+            <img src="assets/image/me-1.jpg" width="300" height="200">
+        </picture>
+     
     </section>
    
     <br><br>
